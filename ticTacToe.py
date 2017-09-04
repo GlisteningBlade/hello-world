@@ -44,7 +44,7 @@ def marko(pos):
 	global mark2
 	if pos.state == ' ':
 		pos.state = mark2
-		show()
+	show()
 
 def checkWin():
 	global mark1
